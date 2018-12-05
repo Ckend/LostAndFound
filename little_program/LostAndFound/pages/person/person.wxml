@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page__bd" style='text-align:center;padding-top:50px'>
+    <view>本系统现暂时为演示系统</view>
+    <view>详情见系统说明文档</view>
+    <view>Good Luck</view>
+  </view>
+  <view class="weui-footer" style='text-align:center;padding-top:150px'>
+        Created By 
+    <view class="weui-footer__links">
+        <navigator url="https://huanxiangke.com" class="weui-footer__link">Ckend & Lvj. </navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2017-2018 </view>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/person/person", 
+    "pages/post/post"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#71b3e8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/Home_active.png",
+        "iconPath": "images/Home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/Person_active.png",
+        "iconPath": "images/Person.png",
+        "pagePath": "pages/person/person",
+        "text": "关于系统"
+      }
+    ]
+  }
+}

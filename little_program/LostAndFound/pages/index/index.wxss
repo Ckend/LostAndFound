@@ -1,0 +1,40 @@
+/**index.wxss**/
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #EBEBEB;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+}
+.page__bd{
+    height: 100%;
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    text-align: left;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+.weui-search-bar {
+  background-color: white;
+  border-bottom: 0rpx;
+}
+.weui-navbar__item.weui-bar__item_on {
+  color: #1296db;
+}
+/* button[type=default] {
+  background-color: #71b3e8;
+} */
+.weui-navbar__slider {
+  background-color: #71b3e8;
+}
