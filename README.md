@@ -2,9 +2,9 @@
 
 本章主要包括本系统的使用说明。
 
-项目演示地址： https://laf.alltoshare.com
+项目演示地址： https://laf.alltoshare.com
 
-使用本项目建议： 由于是大二时的作品，设计有点稚嫩，数据库中表的构建略为冗杂，你可以进行改进；前端打包生成的app.js约1.3M, 可以进一步优化。
+使用本项目建议： 由于是大二时的作品，设计有点稚嫩，数据库中表的构建略为冗杂，你可以进行改进；前端打包生成的app.js约1.3M, 可以进一步优化。
 
 欢迎访问我的博客：https://huanxiangke.com
 
@@ -28,12 +28,12 @@
 9.	部署完成，下面开始使用。
 
 **基础安装(小程序)**
-1.	将little_program中的LostAndFound文件夹作为你的小程序主目录。
+1.	将little_program中的LostAndFound文件夹作为你的小程序主目录。
 2.	配置project.config.js中的appid和projectname.
-3.	修改pages文件夹下所有的js文件，将wx.request中的https://jizhianshi.com/ 修改成你自己的域名或本地地址。
+3.	修改pages文件夹下所有的js文件，将wx.request中的https://jizhianshi.com/ 修改成你自己的域名或本地地址。
 4.	部署完成。
 
-**系统配置**
+**系统配置**
 
 1.	注册一个超级账号，用于管理所有校区和校区学院，以及是否开启企业号自动通知、微博同步等功能。打开网页：http://你的域名/register 在校区名中写入: admin ，其他账号密码设定后需要牢记。
 2.	页面会自动跳转到超级后台管理，请自行配置学校名称、微博账号密码及token、企业号配置（如果不需要可以关闭）和校区及学院。
@@ -64,7 +64,7 @@
 
 ![laf_3](https://huanxiangke.com/storage/app/media/Now/laf_3.png)
 
-#### 后台管理页
+#### 后台管理页
 
 包括超级系统管理页面、分校区管理页面。其中超级系统管理页面需要设定学校名称，及各校区基本情况。以及配置微博信息和企业号信息。如下图所示。
 
@@ -75,7 +75,7 @@
 ![laf_5](https://huanxiangke.com/storage/app/media/Now/laf_5.png)
 ![laf_6](https://huanxiangke.com/storage/app/media/Now/laf_6.png)
 
-#### 企业号自动通知与微博同步功能
+#### 企业号自动通知与微博同步功能
 
 为确保同学们能及时收到失物信息，我们设计了卡类失物微信自动通知功能和非卡类失物微博同步功能，如下图所示。
 
